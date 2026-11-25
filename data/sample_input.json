@@ -1,0 +1,21 @@
+{
+"depot": "HUB",
+"vehicle_capacity": 15,
+"parcels": [
+{ "id": "P101", "destination": "Sector_A", "weight": 5, "value": 75, "deadline": 3 },
+{ "id": "P102", "destination": "Sector_C", "weight": 7, "value": 70, "deadline": 5 },
+{ "id": "P103", "destination": "Sector_B", "weight": 4, "value": 60, "deadline": 2 },
+{ "id": "P104", "destination": "Sector_A", "weight": 3, "value": 35, "deadline": 6 },
+{ "id": "P105", "destination": "Sector_D", "weight": 6, "value": 80, "deadline": 4 }
+],
+"edges": [
+["HUB", "Sector_A", 4],
+["HUB", "Sector_B", 6],
+["HUB", "Sector_D", 7],
+["Sector_A", "Sector_B", 5],
+["Sector_A", "Sector_C", 8],
+["Sector_B", "Sector_C", 4],
+["Sector_B", "Sector_D", 6],
+["Sector_C", "Sector_D", 5]
+]
+}
